@@ -1,1 +1,1 @@
-We Learn to create a Card Website using html and Css
+ It is a Card Website using html and Css
