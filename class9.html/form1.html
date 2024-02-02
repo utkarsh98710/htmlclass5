@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1{
+            color: aquamarine;
+        }
+    </style>
+    
+</head>
+<body>
+   
+    <!-- Now we make  form  -->
+    
+
+        
+
+    <form>
+        <h1> Event Registration </h1>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+
+    <br/>
+    <br/>
+
+        <label for="emailid">Email id:</label>
+        <input type="email" id="emailid" name="emailid">
+
+        <br/>
+        <br/>
+
+
+        <label for="Phonenumber">Phone No:</label>
+        <!-- here we use tel tag for entering mobile number --> 
+        <input type="tel" id="Phonenumber" name="Phonenumber"> 
+
+        <br/>
+        <br/>
+
+        <!-- Drop down menu -->
+
+        <label for="ocupationtype">Occupation:</label>
+        <select name="ocupationtype" id="occupationtype">
+        <option value="engineer">Engineer</option>
+        <option value="doctor">Doctor</option>
+        <option value="lawer">Lawer</option>
+        <option value="Editor">Editor</option>
+        <option value="bussiness man">Bussiness man</option>
+    </select>
+
+        <br/>
+        <br/>
+
+        <!-- we use fieldset for grpimg elements and if we want to give heading we use legend tag -->
+
+        <fieldset>
+            <legend>Topics of Interest</legend>
+
+            <br/>
+            <label for="checkbox1">HTML</label>
+        <input type="checkbox" id="checkbox1" name="checkbox1">
+
+        <br/>
+        <br/>
+
+        <label for="checkbox2">CSS</label>
+        <input type="checkbox" id="checkbox2" name="checkbox2">
+
+        <br/>
+        <br/>
+
+        <label for="checkbox3">JAVASCRIPT</label>
+        <input type="checkbox" id="checkbox3" name="checkbox3">
+
+        </fieldset>
+
+        <label for="textarea">Comments:</label>
+         <br/>
+        <textarea name="textarea1" id="textarea1" cols="30" rows="10"></textarea>
+
+        <br/>
+
+        <label for="textarea">information</label>
+        <br/>
+        <textarea name="textarea" id="textarea" cols="30" rows="10">info about the contents ...</textarea>
+        
+
+        <!-- how to make a button -->
+
+        <input type="submit" value="Register">
+
+<input type="submit" value="open kar">
+    </form>
+
+</body>
+</html>

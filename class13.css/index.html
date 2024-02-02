@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="utkarsh.css"> -->
+    <!-- Internal Css -->
+
+    <style>
+         
+         /* In css always inline css wins vs internal css but if we add important tag with  this ! mark then css consider internal css  */
+
+         /* here the bg colour not win because the css link text is written close to the paragraph tag which we want to style is we write the css link file above then it will not work then internal css will work */
+        /* p{
+            background-color: aqua ;  
+        }
+        h1{
+            color: greenyellow;
+        } */
+    </style>
+<!-- this is element selectors -->
+    <style>
+        p{
+            color: brown;
+        }
+        /* Id selector */
+        #article1{
+            background-color: aqua;
+        }
+        /* class selector */
+        .para1{
+            background-color: rgb(109, 112, 82);
+            background-color: beige;
+            background-color: rgb(124, 123, 58);
+        }
+        /* group selector using , */
+        p,article{
+            width: 500px;
+        }
+        /* selective group selectors */
+        p.para1{
+            text-align: center;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <h1>Welcome to web Dev</h1>
+    <p class="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem voluptas dolorum, culpa eos magni dolores adipisci quisquam aspernatur modi eligendi corrupti at hic harum amet labore dicta saepe ratione laborum.</p>
+    <p class="para1">My name is utkarsh</p>
+    <p>My name is utkarsh gupta ultra pro max</p>
+    <article id="article1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, magni. Fugiat illum maiores numquam fugit, similique explicabo officiis ducimus dolorum expedita cumque, eius minus facilis cum necessitatibus corporis asperiores, vel inventore doloribus reprehenderit possimus deserunt optio ipsam! Non quaerat eius obcaecati accusantium, inventore est impedit omnis adipisci minus sapiente animi.</article>
+
+    
+    <h1>Welcome to web development bootcamp</h1>
+
+    <!-- Inline Css -->
+     <p style="background-color: aqua;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel fugit excepturi quas tenetur dolorum veritatis, laborum quaerat deserunt sequi natus?</p> 
+     <p style="color: rgb(226, 43, 58);">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem aliquam natus eos inventore, doloremque, delectus fugiat magnam alias numquam accusantium perspiciatis commodi doloribus magni dolorum vitae dolorem nesciunt ipsa nulla?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, enim. Dignissimos eius amet illum soluta at voluptatibus nulla, harum officia optio vel deleniti? Quisquam magni ad doloribus est quos fugit maiores quam nobis itaque fugiat molestias, nihil beatae optio ab.</p>
+
+
+</body>
+</html>
